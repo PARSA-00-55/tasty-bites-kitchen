@@ -10,14 +10,18 @@
     "turbo": "rimraf .next && next dev --turbo"
   },
   "dependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-tailwindcss": "^3.15.1",
+    "next": "14.2.3",
+    "prettier": "^3.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
