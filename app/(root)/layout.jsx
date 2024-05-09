@@ -5,7 +5,7 @@ const layout = ({ children }) => {
   return (
     <div>
       <Header />
-      {children}
+      <div className="container mx-auto"> {children}</div>
       <Footer />
     </div>
   );
