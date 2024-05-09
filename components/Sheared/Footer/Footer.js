@@ -124,7 +124,7 @@ const Footer = () => {
                 </svg>{" "}
                 Linkedin
               </li>
-              <li className="text-gray-500 inline-flex">
+              <li className="text-gray-500 inline-flex px-2">
                 <svg
                   fill="currentColor"
                   strokeLinecap="round"
