@@ -1,8 +1,8 @@
 "use client";
-import { useEffect } from "react";
-import logo from "@/assets/images/logo.png";
-import Image from "next/image";
-import Search from "./Search";
+import Cart from "@/assets/icons/Cart";
+import HeartFilled from "@/assets/icons/HeartFilled";
+import MenuRound from "@/assets/icons/MenuRound";
+// import logo from "@/assets/images/logo.png";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,10 +11,9 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import MenuRound from "@/assets/icons/MenuRound";
-import Cart from "@/assets/icons/Cart";
-import HeartFilled from "@/assets/icons/HeartFilled";
+import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
 
 const HeaderArr = [
   {
@@ -42,6 +41,8 @@ const HeaderArr = [
     link: "/contact-us",
   },
 ];
+
+
 
 const Header = () => {
   useEffect(() => {
@@ -106,7 +107,7 @@ const Header = () => {
               </li> */}
               <li className="relative max-w-fit pr-3 mt-[-18px] md:pr-0 py-1 after:bg-gradient-to-r after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
                 <a href="/">
-                  <Image src={logo} alt="LOGO" width={200} height={50} />
+                  <Image src={`https://htmlbeans.com/html/botanical/images/logo.png`} alt="LOGO" width={200} height={50} />
                 </a>
               </li>
               {/* <li className="relative max-w-fit pr-3 md:pr-0 py-1 after:bg-gradient-to-r from-[#9BEC00] to-[#06D001] after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
