@@ -4,10 +4,11 @@ import HeroCarousel from "@/components/HeroSection/HeroCarousel";
 import HeroSection from "@/components/HeroSection/HeroSection";
 
 export default function Home() {
+  // const OPTIONS = { loop: true, duration: 30 };
   return (
     <main>
       <HeroSection />
-      <HeroCarousel />
+      {/* <HeroCarousel OPTIONS={OPTIONS} /> */}
       <Discover />
       <FeaturedProduct />
     </main>
