@@ -7,6 +7,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "htmlbeans.com",
       },
+      {
+        protocol: "http",
+        hostname: "via.placeholder.com",
+      },
     ],
   },
 };

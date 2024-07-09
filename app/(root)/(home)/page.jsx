@@ -1,7 +1,9 @@
 import Discover from "@/components/Discover/Discover";
-import FeaturedProduct from "@/components/FeaturedProduct/FeaturedProduct";
-import HeroCarousel from "@/components/HeroSection/HeroCarousel";
+import HomeFooter from "@/components/Footer/HomeFooter";
 import HeroSection from "@/components/HeroSection/HeroSection";
+import FeaturedProduct from "@/components/Products/FeaturedProduct";
+import MostSellsProduct from "@/components/Products/MostSellsProduct";
+import Subscribe from "@/components/Subscribe/Subscribe";
 
 export default function Home() {
   // const OPTIONS = { loop: true, duration: 30 };
@@ -11,6 +13,9 @@ export default function Home() {
       {/* <HeroCarousel OPTIONS={OPTIONS} /> */}
       <Discover />
       <FeaturedProduct />
+      <MostSellsProduct />
+      <Subscribe />
+      <HomeFooter />
     </main>
   );
 }

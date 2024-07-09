@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Stylish T-Shirt",
+    "description": "A comfortable and stylish t-shirt made from high-quality materials.",
+    "rating": 4.5,
+    "price": 29.99,
+    "discountPercent": 10,
+    "sizes": ["S", "M", "L", "XL"],
+    "color": "Blue",
+    "productCode": "TSHIRT001",
+    "quantity": 150,
+    "tags": ["clothing", "t-shirt", "casual"],
+    "category": "Apparel",
+    "images": [
+      "https://example.com/images/tshirt1.jpg",
+      "https://example.com/images/tshirt1-back.jpg"
+    ]
+  },
+  {
+    "title": "Running Shoes",
+    "description": "Lightweight running shoes designed for comfort and performance.",
+    "rating": 4.8,
+    "price": 89.99,
+    "discountPercent": 20,
+    "sizes": ["8", "9", "10", "11"],
+    "color": "Red",
+    "productCode": "SHOES002",
+    "quantity": 75,
+    "tags": ["footwear", "running", "sports"],
+    "category": "Footwear",
+    "images": [
+      "https://example.com/images/shoes1.jpg",
+      "https://example.com/images/shoes1-side.jpg"
+    ]
+  },
+  {
+    "title": "Classic Wristwatch",
+    "description": "A timeless wristwatch with a leather band and stainless steel case.",
+    "rating": 4.7,
+    "price": 199.99,
+    "discountPercent": 15,
+    "sizes": [],
+    "color": "Black",
+    "productCode": "WATCH003",
+    "quantity": 50,
+    "tags": ["accessories", "wristwatch", "classic"],
+    "category": "Accessories",
+    "images": [
+      "https://example.com/images/watch1.jpg",
+      "https://example.com/images/watch1-strap.jpg"
+    ]
+  },
+  {
+    "title": "Designer Handbag",
+    "description": "A luxurious handbag crafted from premium leather with multiple compartments.",
+    "rating": 4.9,
+    "price": 299.99,
+    "discountPercent": 25,
+    "sizes": [],
+    "color": "Brown",
+    "productCode": "BAG004",
+    "quantity": 30,
+    "tags": ["accessories", "handbag", "designer"],
+    "category": "Accessories",
+    "images": [
+      "https://example.com/images/handbag1.jpg",
+      "https://example.com/images/handbag1-inside.jpg"
+    ]
+  },
+  {
+    "title": "Bluetooth Headphones",
+    "description": "High-quality wireless Bluetooth headphones with noise-canceling feature.",
+    "rating": 4.6,
+    "price": 149.99,
+    "discountPercent": 5,
+    "sizes": [],
+    "color": "Black",
+    "productCode": "HEADPHONES005",
+    "quantity": 120,
+    "tags": ["electronics", "headphones", "wireless"],
+    "category": "Electronics",
+    "images": [
+      "https://example.com/images/headphones1.jpg",
+      "https://example.com/images/headphones1-case.jpg"
+    ]
+  }
+]
