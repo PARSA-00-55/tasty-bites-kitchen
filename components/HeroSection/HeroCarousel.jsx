@@ -1,7 +1,7 @@
 "use client";
-import useEmblaCarousel from "embla-carousel-react";
-import Fade from "embla-carousel-fade";
 import carouselData from "@/Data/heroSectio.json";
+import Fade from "embla-carousel-fade";
+import useEmblaCarousel from "embla-carousel-react";
 import {
   NextButton,
   PrevButton,
@@ -33,7 +33,7 @@ const HeroCarousel = (props) => {
                 <div className="embla__slide" key={index}>
                   <img
                     className="embla__slide__img"
-                    src={data.image}
+                    src={data?.image}
                     alt="Your alt text"
                   />
                 </div>
