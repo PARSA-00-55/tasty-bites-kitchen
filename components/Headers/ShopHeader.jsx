@@ -24,7 +24,7 @@ const ShopHeader = () => {
     <header className="container py-10">
       <div className="flex justify-center items-center ">
         <div className="w-1/2 sm:w-1/6 sm:block hidden">
-          <div className="logo animate-wiggle animate-ease-linear">
+          <div className="logo ">
             <a href="/">
               <Image
                 src={`https://htmlbeans.com/html/botanical/images/logo.png`}

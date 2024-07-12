@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const ProductCard = ({ product }) => {
     return (
-        <div className="group overflow-hidden rounded bg-white shadow transition-transform duration-300 hover:scale-105">
+        <div className="group animate-fade-left overflow-hidden rounded bg-white shadow transition-transform duration-300 hover:scale-105">
             <div className="relative h-56 w-full">
                 <Image
                     src={`https://htmlbeans.com/html/botanical/images/img02.jpg`}

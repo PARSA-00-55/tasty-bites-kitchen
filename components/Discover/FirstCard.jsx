@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const FirstCard = () => {
     return (
-        <div className="container mx-auto my-10 flex flex-col items-center p-6 md:flex-row md:items-start md:space-x-8">
+        <div className="animate-fade-up container mx-auto my-10 flex flex-col items-center p-6 md:flex-row md:items-start md:space-x-8">
             <div className="mb-6 flex flex-col items-end justify-center md:w-1/2">
                 <h2 className="mb-2 text-xl font-semibold">Discover___</h2>
                 <h4 className="mb-4 text-center font-serif text-3xl font-bold">Tropical Plants</h4>

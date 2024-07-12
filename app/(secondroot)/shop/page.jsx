@@ -1,7 +1,11 @@
+import DynamicRoute from "@/components/Sheared/DynamicRoute";
+import Shop from "./Shop";
+
 const ShopPage = () => {
     return (
         <>
-            page
+            <DynamicRoute />
+            <Shop />
         </>
     );
 };

@@ -79,8 +79,8 @@ const Header = () => {
             <DropdownMenuContent>
               <DropdownMenuLabel>Menu</DropdownMenuLabel>
               <DropdownMenuSeparator />
-              {HeaderArr.map((menu) => (
-                <DropdownMenuItem>
+              {HeaderArr.map((menu, i) => (
+                <DropdownMenuItem key={i}>
                   <Link href={menu.link}>{menu.title}</Link>
                 </DropdownMenuItem>
               ))}

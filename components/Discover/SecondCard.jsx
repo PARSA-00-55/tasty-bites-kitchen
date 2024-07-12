@@ -3,7 +3,7 @@ import Image from "next/image";
 const SecondCard = () => {
     return (
 
-        <div className="container mx-auto my-10 flex flex-col items-center p-6 md:flex-row md:items-start md:space-x-8">
+        <div className="container animate-fade-up  mx-auto my-10 flex flex-col items-center p-6 md:flex-row md:items-start md:space-x-8">
 
             <div className="relative flex flex-col items-end md:w-1/2">
                 <div className="absolute -translate-y-12 translate-x-[-450px]">
