@@ -1,4 +1,4 @@
-import Copyright from "@/components/Footer/Copyright";
+import Copyright from "@/components/Footers/Copyright";
 import { dbConnect } from "@/dataQueries/mongo";
 import { Inter } from "next/font/google";
 import "./globals.css";

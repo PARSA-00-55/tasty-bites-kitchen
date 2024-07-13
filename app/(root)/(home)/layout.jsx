@@ -1,11 +1,12 @@
-import Header from "@/components/Sheared/Header/Header";
+import HomeHeader from "@/components/Headers/HomeHeader";
+
 
 const HomeLayout = async ({ children }) => {
 
 
     return (
         <div>
-            <Header />
+            <HomeHeader />
             <div className="container mx-auto"> {children}</div>
         </div>
     );

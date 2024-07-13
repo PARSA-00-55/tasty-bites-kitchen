@@ -1,5 +1,5 @@
 import Discover from "@/components/Discover/Discover";
-import HomeFooter from "@/components/Footer/HomeFooter";
+import HomeFooter from "@/components/Footers/HomeFooter";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import FeaturedProduct from "@/components/Products/FeaturedProduct";
 import MostSellsProduct from "@/components/Products/MostSellsProduct";

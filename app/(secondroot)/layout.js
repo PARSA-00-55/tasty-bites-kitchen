@@ -1,4 +1,4 @@
-import GlobalFooter from "@/components/Footer/GlobalFooter";
+import GlobalFooter from "@/components/Footers/GlobalFooter";
 import ShopHeader from "@/components/Headers/ShopHeader";
 import Subscribe from "@/components/Subscribe/Subscribe";
 
