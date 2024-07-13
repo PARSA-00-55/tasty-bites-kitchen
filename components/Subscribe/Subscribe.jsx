@@ -30,7 +30,7 @@ const Subscribe = () => {
                         type="submit"
                         className="bg-btnColor hover:bg-[#8cbd5e]  text-sm text-white font-bold py-3 px-4 rounded-r-full flex justify-center items-center gap-2 duration-300"
                     >
-                        Shop Now  <Image src={arrowRight} height={5} width={10} alt="arrow right" />
+                        Subscribe Now  <Image src={arrowRight} height={5} width={10} alt="arrow right" />
                     </button>
                 </form>
             </section>
