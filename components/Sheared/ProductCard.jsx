@@ -35,7 +35,7 @@ const Buttons = () => {
     return (
         <div className="flex translate-y-full  items-center space-x-2 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
             <Link
-                href={`/productDetails/}`}
+                href={`/product-details/1245`}
                 className=" flex size-12 items-center justify-center  rounded-s-full bg-white shadow-lg transition"
                 title="view product"
             >

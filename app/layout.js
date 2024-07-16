@@ -6,8 +6,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "TastyBitesKitchen",
-  description: "Where Taste Meets Tradition",
+  title: "Botanical",
+  description:
+    "Botanical offers a curated selection of premium plants and gardening essentials. Discover a variety of vibrant houseplants, unique planters, and expert care tips to transform your space into a lush, green sanctuary. Elevate your home with Botanical's natural beauty.",
 };
 
 export default async function RootLayout({ children }) {
