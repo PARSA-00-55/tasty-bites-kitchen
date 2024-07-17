@@ -1,8 +1,8 @@
-import { ProductModel } from "@/Model/product-model";
+import { plantsModel } from "@/Model/plants-model";
 import { dbConnect } from "./mongo";
 
-export const getProducts = async () => {
+export const getPlants = async () => {
   await dbConnect();
-  const req = ProductModel.find().lean();
+  const req = plantsModel.find().lean();
   return req;
 };

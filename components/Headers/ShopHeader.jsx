@@ -3,22 +3,36 @@ import Cart from "@/assets/icons/Cart";
 import profileIcon from "@/public/icons-svg/user.svg";
 import { SearchIcon } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from 'next/navigation';
 import { useState } from "react";
 
-const NavLink = ({ href, children }) => (
+const navItemClass = (item) => {
+  return ` ${active === item ? "shadow-xl shadow-blue-500/100" : "text-white"}`;
+};
+
+const NavLink = ({ href, children, pathname }) => (
+
+
+
   <li className="relative">
-    <a className="block p-2 cursor-pointer" href={href}>
+    <Link className={`${href === pathname && "shadow-xl shadow-blue-500/100 animate-fade-down animate-once "} shadow-md block p-2 cursor-pointer m-3 text-center  hover:shadow-lg hover:shadow-blue-500/100 `} href={href}>
       {children}
-    </a>
+    </Link>
   </li>
 );
 
 const ShopHeader = () => {
+
+  const pathname = usePathname()
+
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
+
+
 
   return (
     <header className="container py-10">
@@ -54,11 +68,11 @@ const ShopHeader = () => {
                 className={`absolute   top-full left-0 w-full  ${isNavOpen ? "block " : "hidden "} md:block`}
               >
                 <ul className="flex flex-col justify-center items-center gap-5 font-bold md:flex-row mx-auto">
-                  <NavLink href="/">Home</NavLink>
-                  <NavLink href="/shop">Store</NavLink>
-                  <NavLink href="/about-us">About</NavLink>
-                  <NavLink href="/blogs">Blogs</NavLink>
-                  <NavLink href="/contact-us">Contact</NavLink>
+                  <NavLink href="/" pathname={pathname}>Home</NavLink>
+                  <NavLink href="/shop" pathname={pathname}>Shop</NavLink>
+                  <NavLink href="/about-us" pathname={pathname}>About</NavLink>
+                  <NavLink href="/blogs" pathname={pathname}>Blogs</NavLink>
+                  <NavLink href="/contact-us" pathname={pathname}>Contact</NavLink>
                 </ul>
               </div>
             </nav>

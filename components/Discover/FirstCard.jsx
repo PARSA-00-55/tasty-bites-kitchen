@@ -1,4 +1,6 @@
+import rightIcon from "@/public/icons-svg/arrow-right.svg";
 import Image from "next/image";
+import { Button } from "../ui/button";
 
 const FirstCard = () => {
     return (
@@ -9,10 +11,9 @@ const FirstCard = () => {
                 <p className="mb-4 items-end text-end text-sm">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                 </p>
-                <button className="flex items-center space-x-2 rounded bg-green-500 px-4 py-2 text-white transition hover:bg-green-700">
-                    <p>view more</p>
-                    <p>→</p>
-                </button>
+
+                <Button >view more <Image src={rightIcon} width={15} height={10} alt="rightIcon" />  </Button>
+
             </div>
             <div className="relative flex flex-col items-end md:w-1/2">
                 <div className="absolute -translate-y-12 translate-x-8">

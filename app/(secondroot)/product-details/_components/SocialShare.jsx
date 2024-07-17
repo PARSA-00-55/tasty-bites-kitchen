@@ -1,21 +1,35 @@
+
+import Image from "next/image";
+import Link from "next/link";
+
 const SocialShare = () => {
     return (
         <ul className="list-none flex flex-wrap mb-4">
             <li className="uppercase mr-5">SHARE THIS PRODUCT:</li>
-            <li className="mr-4">
-                <a href="javascript:void(0);" className="fab fa-facebook-f"></a>
+            <li className="mr-3 md:mr-6">
+                <Link href="/" >
+                    <Image src="/social-svg/facebook.svg" alt="Botanical" width={20} height={10} className="mx-auto" />
+                </Link>
             </li>
-            <li className="mr-4">
-                <a href="javascript:void(0);" className="fab fa-google-plus-g"></a>
+            <li className="mr-3 md:mr-6">
+                <Link href="/" >
+                    <Image src="/social-svg/whatsapp.svg" alt="Botanical" width={20} height={10} className="mx-auto" />
+                </Link>
             </li>
-            <li className="mr-4">
-                <a href="javascript:void(0);" className="fab fa-twitter"></a>
+            <li className="mr-3 md:mr-6">
+                <Link href="/" >
+                    <Image src="/social-svg/instagram.svg" alt="Botanical" width={20} height={10} className="mx-auto" />
+                </Link>
             </li>
-            <li className="mr-4">
-                <a href="javascript:void(0);" className="fab fa-pinterest-p"></a>
+            <li className="mr-3 md:mr-6">
+                <Link href="/" >
+                    <Image src="/social-svg/linkedin.svg" alt="Botanical" width={20} height={10} className="mx-auto" />
+                </Link>
             </li>
+
         </ul>
     );
 };
 
 export default SocialShare;
+

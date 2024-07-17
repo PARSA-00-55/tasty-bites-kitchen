@@ -1,13 +1,13 @@
 
-import { getProducts } from "@/dataQueries/dataQueries";
+import { getPlants } from "@/dataQueries/dataQueries";
 import Image from "next/image";
 import ProductCard from "../Sheared/ProductCard";
 
 const FeaturedProduct = async () => {
 
-    const data = await getProducts();
+    const data = await getPlants();
 
-    // console.log(data);
+    console.log(data);
 
     return (
         <div className="container mx-auto p-4">

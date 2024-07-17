@@ -1,4 +1,11 @@
+"use client"
+import { usePathname } from "next/navigation";
+
+
+
 const DynamicRoute = () => {
+    const pathName = usePathname();
+    console.log([pathName]);
     return (
         <section
             className="min-h-60 flex items-center w-full bg-cover bg-center"
@@ -9,7 +16,7 @@ const DynamicRoute = () => {
                     <h1 className="text-4xl font-bold font-playfair mb-4">Shop</h1>
                     <ul className="list-none flex justify-center">
                         <li className="mr-2">
-                            <a href="home.html" className="hover:underline">Home</a>
+                            <a href="/" className="hover:underline">Home</a>
                         </li>
                         <li className="mr-2">/</li>
                         <li className="active">Shop</li>

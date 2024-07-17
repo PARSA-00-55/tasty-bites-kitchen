@@ -1,5 +1,6 @@
 import ProductCard from "@/components/Sheared/ProductCard";
 import Image from "next/image";
+import AddToCartSection from "./AddToCartSection";
 import DescriptionReviews from "./DescriptionReviews";
 import Sizes from "./Sizes";
 import SocialShare from "./SocialShare";
@@ -27,59 +28,37 @@ const ProductDetails = () => {
                     <div className="col-12 col-lg-6 order-lg-3">
                         {/* productTextHolder */}
                         <div className="overflow-hidden">
-                            <h2 className="font-bold mb-2">Pellentesque aliquet</h2>
+                            <h2 className="font-bold mb-2">Pellentesque aliquot</h2>
                             <ul className="list-none flex flex-nowrap mb-2">
                                 <li className="mr-2">
-                                    <a href="javascript:void(0);">
-                                        <i className="fas fa-star"></i>
-                                    </a>
+                                    <Image src="/icons-svg/star.svg" alt="Botanical" width={20} height={10} className="mx-auto" />
                                 </li>
                                 <li className="mr-2">
-                                    <a href="javascript:void(0);">
-                                        <i className="fas fa-star"></i>
-                                    </a>
+                                    <Image src="/icons-svg/star.svg" alt="Botanical" width={20} height={10} className="mx-auto" />
                                 </li>
                                 <li className="mr-2">
-                                    <a href="javascript:void(0);">
-                                        <i className="fas fa-star"></i>
-                                    </a>
+                                    <Image src="/icons-svg/star.svg" alt="Botanical" width={20} height={10} className="mx-auto" />
                                 </li>
-                                <li className="mr-2">
-                                    <a href="javascript:void(0);">
-                                        <i className="fas fa-star"></i>
-                                    </a>
-                                </li>
-                                <li className="mr-2">
-                                    <a href="javascript:void(0);">
-                                        <i className="far fa-star"></i>
-                                    </a>
-                                </li>
+
+
                                 <li>( 5 customer reviews )</li>
                             </ul>
                             <strong className="block mb-5 text-green-500">65.00 $</strong>
-                            <p className="mb-5">Vestibulum</p>
+                            <p className="mb-5 ">Vestibules short description </p>
                             <ul className="list-none mb-5 overflow-hidden">
-                                <li className="mb-2">Product Code: <span>FA008</span></li>
-                                <li className="mb-2">Quantity: <span>68 Items</span></li>
-                                <li className="mb-2">Shipping tax: <span>Free</span></li>
+                                <li className="mb-2">Product Code: <span className="font-semibold">FA008</span></li>
+                                <li className="mb-2">Quantity: <span className="font-semibold">68 Items</span></li>
+                                <li className="mb-2">Shipping tax: <span className="font-semibold">Free</span></li>
                             </ul>
 
                             <Sizes />
 
-                            <div className="overflow-hidden flex flex-wrap mb-6">
-                                <input type="number" placeholder="1" />
-                                <a
-                                    href="javascript:void(0);"
-                                    className="btn btn-theme btn-shop font-bold text-white rounded-md py-3 px-4"
-                                >
-                                    Add To Cart <i className="fas fa-arrow-right ml-2"></i>
-                                </a>
-                            </div>
+                            <AddToCartSection />
 
                             <SocialShare />
 
                             <ul className="list-none">
-                                <li className="mb-2">
+                                <li className="mb-2 ">
                                     Categories:
                                     <a href="javascript:void(0);">Butter &amp; Eggs,</a>
                                     <a href="javascript:void(0);">Fruits,</a>
@@ -102,9 +81,7 @@ const ProductDetails = () => {
                                     className="img-fluid"
                                 />
                             </div>
-
                         </div>
-
                     </div>
                 </div>
             </div>
